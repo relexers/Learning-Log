@@ -141,3 +141,5 @@ if os.getcwd() == '/app':
 	STATICFILES_DIRS = (
 		os.path.join(BASE_DIR, 'static'),
 		)
+ALLOWED_HOSTS = ['learning-log.herokuapp.com']
+DEBUG = False
