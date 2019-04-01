@@ -141,5 +141,5 @@ if os.getcwd() == '/app':
 	STATICFILES_DIRS = (
 		os.path.join(BASE_DIR, 'static'),
 		)
-ALLOWED_HOSTS = ['lit-gorge-25010.herokuapp.com']
+ALLOWED_HOSTS = ['llogg.herokuapp.com']
 DEBUG = False
